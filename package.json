@@ -18,12 +18,13 @@
     "array-flatten": "^2.0.0",
     "async": "^1.5.2",
     "decode-prompt": "0.0.2",
-    "glob": "~6.0.4",
+    "glob": "~7.0.0",
     "lib-pathcomplete": "0.0.1",
     "lib-pathsearch": "piranna/node-lib-pathsearch",
-    "mkdirp": "~0.5.1",
+    "mkfifo": "^0.1.4",
     "npm-path": "piranna/npm-path",
-    "shell-parse": "0.0.2"
+    "shell-parse": "0.0.2",
+    "src-unistd": "nodeos/node-src-unistd"
   },
   "devDependencies": {
     "concat-stream": "^1.5.1",
