@@ -28,6 +28,7 @@
   "devDependencies": {
     "concat-stream": "^1.5.1",
     "mocha": "^2.4.5",
+    "pty.js": "^0.3.0",
     "string-to-stream": "^1.0.1"
   }
 }
