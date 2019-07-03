@@ -13,7 +13,9 @@
   },
   "scripts": {
     "coveralls": "easy-coveralls",
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "array-flatten": "^2.1.1",
@@ -29,7 +31,8 @@
     "npm-path": "^2.0.3",
     "shell-parse": "^0.0.2",
     "to-string-stream": "^0.1.0",
-    "uuid": "^3.0.1"
+    "uuid": "^3.0.1",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "concat-stream": "^1.6.0",
@@ -37,5 +40,6 @@
     "mocha": "^3.4.1",
     "string-to-stream": "^1.1.0",
     "tmp": "0.0.31"
-  }
+  },
+  "snyk": true
 }
