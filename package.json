@@ -24,7 +24,7 @@
     "glob": "~7.1.1",
     "lib-pathcomplete": "piranna/node-lib-pathcomplete",
     "lib-pathsearch": "piranna/node-lib-pathsearch",
-    "mkdirp": "~0.5.1",
+    "mkdirp": "~1.0.0",
     "mkfifo": "^1.2.5",
     "npm-path": "^2.0.3",
     "shell-parse": "^0.0.2",
