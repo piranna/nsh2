@@ -21,7 +21,7 @@
     "concat-stream": "^1.6.0",
     "coreutils.js": "github:piranna/coreutils.js",
     "decode-prompt": "^0.0.2",
-    "glob": "~7.1.1",
+    "glob": "~9.0.0",
     "lib-pathcomplete": "piranna/node-lib-pathcomplete",
     "lib-pathsearch": "piranna/node-lib-pathsearch",
     "mkdirp": "~0.5.1",
